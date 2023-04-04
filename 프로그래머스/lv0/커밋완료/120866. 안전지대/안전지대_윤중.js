@@ -4,6 +4,7 @@ function solution(board) {
     let b = board.map(arr => arr.slice());
     for (let i = 0; i < board.length; i++) {
         for (let j = 0; j < board[i].length; j++) {
+            // board = [[1]]
             if (board[0][0] === 1 ) {
                 return 0;
             }
